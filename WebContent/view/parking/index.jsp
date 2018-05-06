@@ -35,22 +35,6 @@
                                 <th class="text-center">Thao tác</th>
                             </tr>
                         </thead>
-                        <tbody id="list">
-                            <tr>
-                                <td>1</td>
-                                <td>Bãi số 1</td>
-                                <td>Khu Tây</td>
-                                <td>10 m2</td>
-                                <td>2.500</td>
-                                <td>
-                                    <span class="">Trống</span>
-                                </td>
-                                <td>
-                                    <a href=""  class="btn btn-success btn-sm btn-edit" ><i class="fa fa-pencil"></i> Sửa</a>
-                                    <a href="" onclick="return confirm('Bạn có chắc muốn xóa?')" class="delete btn btn-sm btn-danger"><i class="fa fa-times-circle"></i> Xóa</a>
-                                </td>
-                            </tr>
-                        </tbody>
                          <tbody id="list">
                             <tr>
                                 <td>2</td>
