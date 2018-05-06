@@ -28,7 +28,7 @@
                 <!-- li (nav item )  -->
                 
                 <li>
-                   <a href="http://demos.getbootstrapkit.com/dash/forms-basic.html#"><i class="nav-sub-indicator fa fa-angle-left"></i>
+                   <a href="javascript:void(0)">
                        <i class="fa fa-th-large"></i>
                        <span class="nav-item-text">Quản lý nhân viên</span>
                    </a>
