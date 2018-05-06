@@ -17,14 +17,14 @@
                         <div class="form-group">
                             <label class="col-lg-2 col-md-3 control-label" for="">Tên bãi xe (*)</label>
                             <div class="col-lg-10 col-md-9">
-                                <input type="text" class="form-control" name="default" placeholder="Tên bãi xe">
+                                <input type="text" class="form-control" name="name" placeholder="Tên bãi xe">
                             </div>
                         </div>
                         <!-- End .form-group  -->
                         <div class="form-group">
                             <label class="col-lg-2 col-md-3  control-label" for="">Vị trí (*)</label>
                             <div class="col-lg-10 col-md-9">
-                                <select style="width: 100%">
+                                <select class="form-control" name="position">
                                 	<option value="">Chọn vị trí</option>
                                 </select>
                             </div>
@@ -33,14 +33,14 @@
                         <div class="form-group">
                             <label class="col-lg-2 col-md-3 control-label" for="">Diện tích (*)</label>
                             <div class="col-lg-10 col-md-9">
-                                <input type="text" class="form-control" name="disabled" disabled="" placeholder="Nhập diện tích">
+                                <input type="text" class="form-control" name="area" placeholder="Nhập diện tích">
                             </div>
                         </div>
                         <!-- End .form-group  -->
                         <div class="form-group">
                             <label class="col-lg-2 col-md-3 control-label" for="">Phí thuê (*)</label>
                             <div class="col-lg-10 col-md-9">
-                                <input type="text" class="form-control" name="readonly" readonly="" placeholder="Nhập phí thuê">
+                                <input type="text" class="form-control" name="fee" placeholder="Nhập phí thuê">
                             </div>
                         </div>
                         <div class="form-group pull-right">
