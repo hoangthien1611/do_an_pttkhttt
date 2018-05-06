@@ -22,13 +22,6 @@
                 </div>
                 
                 <div class="panel-body">
-                    <select style="width: 150px; margin-left: 15px">
-                        <option value="0">--------------//--------------</option>
-                        <option value="1">Audi</option>
-                        <option value="2">BMW</option>
-                        <option value="3">Citroen</option>
-                        <option value="4">Ford</option>
-                    </select>
                     
                     <table id="basic-datatables" class="table table-striped table-bordered" cellspacing="0" width="100%">
                         <thead>
