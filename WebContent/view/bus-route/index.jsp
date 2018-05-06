@@ -10,7 +10,7 @@
             <div class="panel panel-default plain toggle panelMove panelClose panelRefresh">
                 <!-- Start .panel -->
                 <div class="panel-heading">
-                    <h4 class="panel-title">Danh sách món ăn</h4>
+                    <h4 class="panel-title">Quản lý tuyến xe</h4>
                     <!-- Trigger the modal with a button -->
                     <button type="button" class="btn btn-primary btn-sm btn-add" style="margin-left:30px"><i class="fa fa-plus-square"></i> Thêm</button>
                 </div>
@@ -26,39 +26,27 @@
                     <table id="basic-datatables" class="table table-striped table-bordered" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <th>Mã Món Ăn</th>
-                                <th>Tên Món Ăn</th>
-                                <th>Danh Mục</th>
-                                <th>Người Đăng</th>
-                                <th>Ngày Đăng</th>
-                                <th>Tình trạng</th>
+                                <th>STT</th>
+                                <th>Nơi đến</th>
+                                <th>Giờ đi</th>
+                                <th>Tài xế</th>
+                                <th>Loại xe</th>
+                                <th>Số vé đã đặt</th>
                                 <th class="text-center">Chức năng</th>
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                <th>Mã Món Ăn</th>
-                                <th>Tên Món Ăn</th>
-                                <th>Danh Mục</th>
-                                <th>Người Đăng</th>
-                                <th>Ngày Đăng</th>
-                                <th>Tình trạng</th>
-                                <th class="text-center">Chức năng</th>
-                            </tr>
-                        </tfoot>
+                        
                         <tbody id="list">
                             <tr>
                                 <td>1</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
+                                <td>Gia lai</td>
+                                <td>10:30</td>
+                                <td>Trần Văn Lộc</td>
+                                <td>Giường nằm 50 chổ</td>
                                 <td>
-                                    <span class="badge badge-success">Enable</span>
-                                    <span class="badge badge-danger">Disable</span>
+                                    28
                                 </td>
                                 <td>
-                                    <a href=""  class="btn btn-primary btn-sm btn-add" ><i class="fa fa-pencil"></i> Xem</a>
                                     <a href=""  class="btn btn-success btn-sm btn-edit" ><i class="fa fa-pencil"></i> Sửa</a>
                                     <a href="" onclick="return confirm('Bạn có chắc muốn xóa?')" class="delete btn btn-sm btn-danger"><i class="fa fa-times-circle"></i> Xóa</a>
                                 </td>
