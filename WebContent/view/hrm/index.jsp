@@ -1,7 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <%@include file="/templates/inc/header.jsp" %>
-    
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@include file="/templates/inc/header.jsp" %>
+
 <div class="content">
     <!-- Start .row -->
     <div class="row">
@@ -10,9 +10,8 @@
             <div class="panel panel-default plain toggle panelMove panelClose panelRefresh">
                 <!-- Start .panel -->
                 <div class="panel-heading">
-                    <h4 class="panel-title">Danh sách món ăn</h4>
-                    <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-primary btn-sm btn-add" style="margin-left:30px"><i class="fa fa-plus-square"></i> Thêm</button>
+                    <h4 class="panel-title"><b>Danh sách nhân viên</b></h4>
+                    <!-- Trigger the modal with a button -->    
                 </div>
 
                 <div class="panel">
@@ -21,46 +20,38 @@
                         <strong>Thực hiện thất bại!</strong>
                     </div>
                 </div>
+                
                 <div class="panel-body">
-
+                    <select style="width: 150px; margin-left: 15px">
+                        <option value="0">--------------//--------------</option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="3">Citroen</option>
+                        <option value="4">Ford</option>
+                    </select>
+                    
                     <table id="basic-datatables" class="table table-striped table-bordered" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <th>Mã Món Ăn</th>
-                                <th>Tên Món Ăn</th>
-                                <th>Danh Mục</th>
-                                <th>Người Đăng</th>
-                                <th>Ngày Đăng</th>
-                                <th>Tình trạng</th>
-                                <th class="text-center">Chức năng</th>
+                                <th>ID</th>
+                                <th>Họ tên</th>
+                                <th>Ngày sinh</th>
+                                <th>Địa chỉ</th>
+                                <th>Số điện thoại</th>
+                                <th>Bộ phận làm việc</th>
+                                <th class="text-center">Thao tác</th>
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                <th>Mã Món Ăn</th>
-                                <th>Tên Món Ăn</th>
-                                <th>Danh Mục</th>
-                                <th>Người Đăng</th>
-                                <th>Ngày Đăng</th>
-                                <th>Tình trạng</th>
-                                <th class="text-center">Chức năng</th>
-                            </tr>
-                        </tfoot>
                         <tbody id="list">
                             <tr>
                                 <td>1</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
+                                <td>Nguyen Van A</td>
+                                <td>01-01-1998</td>
+                                <td>Đà Nẵng</td>
+                                <td>077384995</td>
+                                <td>Quản lí nhân sự</td>
                                 <td>
-                                    <span class="badge badge-success">Enable</span>
-                                    <span class="badge badge-danger">Disable</span>
-                                </td>
-                                <td>
-                                    <a href=""  class="btn btn-primary btn-sm btn-add" ><i class="fa fa-pencil"></i> Xem</a>
-                                    <a href=""  class="btn btn-success btn-sm btn-edit" ><i class="fa fa-pencil"></i> Sửa</a>
-                                    <a href="" onclick="return confirm('Bạn có chắc muốn xóa?')" class="delete btn btn-sm btn-danger"><i class="fa fa-times-circle"></i> Xóa</a>
+                                    <a href=""  class="btn btn-primary btn-sm btn-add" style="margin: auto">Xem</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -68,15 +59,15 @@
                 </div>
 
                 <!-- Modal -->
-                
 
-                
-            <!-- End .panel -->
 
+
+                <!-- End .panel -->
+
+            </div>
         </div>
+        <!-- End .row -->
     </div>
-    <!-- End .row -->
-</div>
 </div>
 
 <%@include file="/templates/inc/footer.jsp" %>
