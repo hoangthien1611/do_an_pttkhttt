@@ -52,7 +52,7 @@
                               </div>
 
                         <!-- END ERROR BOX -->
-                        <form action="/adlogin" method="post">
+                        <form action="/login" method="post">
                             <input type="text" placeholder="Username" class="input-field form-control user" name="username"/>
                             <input type="password" placeholder="Password" class="input-field form-control password" name="password"/>
                             <div class="div-login" style="margin:auto;text-align:center">

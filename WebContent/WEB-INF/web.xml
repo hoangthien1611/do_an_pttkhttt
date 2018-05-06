@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>AuthLoginController</servlet-name>
+    <servlet-class>controller.AuthLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthLoginController</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
 </web-app>
