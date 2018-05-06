@@ -29,7 +29,7 @@
                 
                 <li>
                    <a href="javascript:void(0)">
-                       <i class="fa fa-th-large"></i>
+                       <i class="fa fa-user"></i>
                        <span class="nav-item-text">Quản lý nhân viên</span>
                    </a>
                    <!-- .sub-nav  -->
@@ -51,28 +51,8 @@
                </li>
                 
                 <li>
-                    <a href="/admin/dslsh">
-                        <i class="fa fa-list-ol"></i>
-                        <span class="nav-item-text">Xe đậu trong bến</span>
-                    </a>
-                    <ul class="sub-nav" role="menu">
-                       <li>
-                           <a href="http://demos.getbootstrapkit.com/dash/fixed-header.html">
-                               <i class="fa fa-caret-right"></i>
-                               <span class="nav-item-text">Danh sách</span>
-                           </a>
-                       </li>
-                       <li>
-                           <a href="http://demos.getbootstrapkit.com/dash/fixed-sidebar.html">
-                               <i class="fa fa-caret-right"></i>
-                               <span class="nav-item-text">Thêm</span>
-                           </a>
-                       </li>
-                   </ul>
-                </li>
-                <li>
-                    <a href="/admin/dsgv">
-                        <i class="fa fa-user"></i>
+                    <a href="javascript:void(0)">
+                        <i class="fa fa-th-large"></i>
                         <span class="nav-item-text">Phòng bán vé</span>
                     </a>
                     <ul class="sub-nav" role="menu">
@@ -91,9 +71,9 @@
                    </ul>
                 </li>
                 <li>
-                    <a href="/admin/dsgv">
-                        <i class="fa fa-user"></i>
-                        <span class="nav-item-text">Vé xe</span>
+                    <a href="javascript:void(0)">
+                        <i class="fa fa-sitemap"></i>
+                        <span class="nav-item-text">Bãi xe</span>
                     </a>
                     <ul class="sub-nav" role="menu">
                        <li>
@@ -102,11 +82,38 @@
                                <span class="nav-item-text">Danh sách</span>
                            </a>
                        </li>
+                       <li>
+                           <a href="http://demos.getbootstrapkit.com/dash/fixed-sidebar.html">
+                               <i class="fa fa-caret-right"></i>
+                               <span class="nav-item-text">Thêm</span>
+                           </a>
+                       </li>
                    </ul>
                 </li>
                 <li>
-                    <a href="/admin/dsgv">
-                        <i class="fa fa-user"></i>
+                    <a href="javascript:void(0)">
+                        <i class="fa fa-car"></i>
+                        <span class="nav-item-text">Xe đậu trong bến</span>
+                    </a>
+                    <ul class="sub-nav" role="menu">
+                       <li>
+                           <a href="http://demos.getbootstrapkit.com/dash/fixed-header.html">
+                               <i class="fa fa-caret-right"></i>
+                               <span class="nav-item-text">Danh sách</span>
+                           </a>
+                       </li>
+                       <li>
+                           <a href="http://demos.getbootstrapkit.com/dash/fixed-sidebar.html">
+                               <i class="fa fa-caret-right"></i>
+                               <span class="nav-item-text">Thêm</span>
+                           </a>
+                       </li>
+                   </ul>
+                </li>
+                
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="fa fa-sliders"></i>
                         <span class="nav-item-text">Tuyến xe</span>
                     </a>
                     <ul class="sub-nav" role="menu">
@@ -125,9 +132,9 @@
                    </ul>
                 </li>
                 <li>
-                    <a href="/admin/dsgv">
-                        <i class="fa fa-user"></i>
-                        <span class="nav-item-text">Bãi xe</span>
+                    <a href="javascript:void(0)">
+                        <i class="fa fa-ticket"></i>
+                        <span class="nav-item-text">Vé xe</span>
                     </a>
                     <ul class="sub-nav" role="menu">
                        <li>
@@ -136,14 +143,9 @@
                                <span class="nav-item-text">Danh sách</span>
                            </a>
                        </li>
-                       <li>
-                           <a href="http://demos.getbootstrapkit.com/dash/fixed-sidebar.html">
-                               <i class="fa fa-caret-right"></i>
-                               <span class="nav-item-text">Thêm</span>
-                           </a>
-                       </li>
                    </ul>
                 </li>
+                
                 <!-- / li -->
             </ul>
             <!-- End / .sidebar-nav  -->
