@@ -10,57 +10,43 @@
             <div class="panel panel-default plain toggle panelMove panelClose panelRefresh">
                 <!-- Start .panel -->
                 <div class="panel-heading">
-                    <h4 class="panel-title">Danh sách món ăn</h4>
+                    <h4 class="panel-title">Quản lý vé xe</h4>
                     <!-- Trigger the modal with a button -->
                     <button type="button" class="btn btn-primary btn-sm btn-add" style="margin-left:30px"><i class="fa fa-plus-square"></i> Thêm</button>
                 </div>
 
-                <div class="panel">
-                    <div class="alert alert-danger alert-dismissable">
-                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                        <strong>Thực hiện thất bại!</strong>
-                    </div>
-                </div>
                 <div class="panel-body">
 
                     <table id="basic-datatables" class="table table-striped table-bordered" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <th>Mã Món Ăn</th>
-                                <th>Tên Món Ăn</th>
-                                <th>Danh Mục</th>
-                                <th>Người Đăng</th>
-                                <th>Ngày Đăng</th>
-                                <th>Tình trạng</th>
-                                <th class="text-center">Chức năng</th>
+                                <th>STT</th>
+                                <th>Tuyến xe</th>
+                                <th>Biển kiểm soát</th>
+                                <th>Khách hàng</th>
+                                <th>Giờ đặt vé</th>
+                                <th class="text-center">Thao tác</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <th>Mã Món Ăn</th>
-                                <th>Tên Món Ăn</th>
-                                <th>Danh Mục</th>
-                                <th>Người Đăng</th>
-                                <th>Ngày Đăng</th>
-                                <th>Tình trạng</th>
-                                <th class="text-center">Chức năng</th>
+                                <th>STT</th>
+                                <th>Tuyến xe</th>
+                                <th>Biển kiểm soát</th>
+                                <th>Khách hàng</th>
+                                <th>Giờ đặt vé</th>
+                                <th class="text-center">Thao tác</th>
                             </tr>
                         </tfoot>
                         <tbody id="list">
                             <tr>
                                 <td>1</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
-                                <td>Món khai vị</td>
+                                <td>Khánh Hòa</td>
+                                <td>43C1-43124</td>
+                                <td>Trần Công Phúc</td>
+                                <td>05:05:23</td>
                                 <td>
-                                    <span class="badge badge-success">Enable</span>
-                                    <span class="badge badge-danger">Disable</span>
-                                </td>
-                                <td>
-                                    <a href=""  class="btn btn-primary btn-sm btn-add" ><i class="fa fa-pencil"></i> Xem</a>
-                                    <a href=""  class="btn btn-success btn-sm btn-edit" ><i class="fa fa-pencil"></i> Sửa</a>
-                                    <a href="" onclick="return confirm('Bạn có chắc muốn xóa?')" class="delete btn btn-sm btn-danger"><i class="fa fa-times-circle"></i> Xóa</a>
+                                    <a href="" onclick="return confirm('Bạn có chắc muốn xóa vé xe này không?')" class="delete btn btn-sm btn-danger"><i class="fa fa-times-circle"></i> Xóa</a>
                                 </td>
                             </tr>
                         </tbody>
