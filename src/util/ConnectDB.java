@@ -11,7 +11,7 @@ public class ConnectDB {
 	private String password;
 	
 	public ConnectDB() {
-		this.url = "jdbc:mysql://localhost:3306/dulieu?useUnicode&characterEncoding=UTF-8";
+		this.url = "jdbc:mysql://localhost:3306/quanlybenxe?useUnicode&characterEncoding=UTF-8";
 		this.user = "root";
 		this.password = "";
 	}

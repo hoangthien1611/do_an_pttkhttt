@@ -91,7 +91,11 @@
 		                    <span class="caret"></span>
 		                </a>
 		                <ul class="dropdown-menu right" role="menu">
-		                    <li><a href="/adlogout"><i class="fa fa-power-off"></i> Logout</a>
+		                	<li>
+		                    	<a href="/adlogout"><i class="fa fa-user"></i> Thông tin cá nhân</a>
+		                    </li>
+		                    <li>
+		                    	<a href="/adlogout"><i class="fa fa-power-off"></i> Logout</a>
 		                    </li>
 		                </ul>
 		            </li>

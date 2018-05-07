@@ -46,13 +46,17 @@
                     <hr>
                     <div class="login-form">
                         <!-- BEGIN ERROR BOX -->
+                        	  <%
+                        	  	if ( request.getAttribute("msg") != null) {
+                        	  %>
                               <div class="alert alert-danger">
                                   <button type="button" class="close" data-dismiss="alert">×</button>
-                                  <h4>Error!</h4>
+                                  <h4><%=request.getAttribute("msg") %></h4>
                               </div>
-
+							  <%} %>
+							  
                         <!-- END ERROR BOX -->
-                        <form action="/login" method="post">
+                        <form action="<%=request.getContextPath() %>/login" method="POST">
                             <input type="text" placeholder="Username" class="input-field form-control user" name="username"/>
                             <input type="password" placeholder="Password" class="input-field form-control password" name="password"/>
                             <div class="div-login" style="margin:auto;text-align:center">
