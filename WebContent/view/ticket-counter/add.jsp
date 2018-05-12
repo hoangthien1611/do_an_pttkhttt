@@ -36,7 +36,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="">
+                        <div class="form-group">
                             <label class="col-lg-2 col-md-3 control-label" for="">Phí thuê (*)</label>
                             <div class="col-lg-10 col-md-9">
                                 <input type="text" class="form-control" name="default">
@@ -44,13 +44,23 @@
                         </div>
                         <div class="form-group">
                         <label class="col-lg-2 col-md-3 control-label" for="">Hạn hợp đồng (*)</label>
-			                <div class="input-group-btn">
-			                    <button type="button" class="btn width-40"><i class="fa fa-calendar-alt"></i></button>
-			                </div>
-			                <span>Đến</span>
-			                <div class="input-group-btn">
-			                    <button type="button" class="btn width-40"><i class="fa fa-calendar-alt"></i></button>
-			                </div>
+                        	<div class="row">
+                        		<div class="col-md-3">
+                        			<div class="input-group">
+									  <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+									  <input id="" type="date" class="form-control" name="email" placeholder="dd/mm/yyyy">
+									</div>
+                        		</div>
+                        		<div class="col-md-1">
+                        			Đến
+                        		</div>
+                        		<div class="col-md-3">
+                        			<div class="input-group">
+									  <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+									  <input id="email" type="date" class="form-control" name="email" placeholder="dd/mm/yyyy">
+									</div>
+                        		</div>
+                        	</div>
 			            </div>
 			            <div class="row" style="margin-top: 20px; padding-bottom: 20px; ">
 			            <div class="col-md-6" style="display: inline; ">    
