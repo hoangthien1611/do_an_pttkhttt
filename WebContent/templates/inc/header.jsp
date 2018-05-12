@@ -45,7 +45,6 @@
         <meta name="msapplication-TileImage" content="<%=request.getContextPath() %>/templates/public/images/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <script src="<%=request.getContextPath() %>/templates/public/js/jquery-2.1.4.min.js"></script>
-        <script src="<%=request.getContextPath() %>/templates/public/js/admin_dsgv.js"></script>
 
     </head>
     <!-- End / Head tag -->

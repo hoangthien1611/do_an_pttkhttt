@@ -12,7 +12,6 @@
                 <div class="panel-heading">
                     <h4 class="panel-title">Danh sách phòng vé</h4>
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-primary btn-sm btn-add" style="margin-left:30px"><i class="fa fa-plus-square"></i> Thêm</button>
                 </div>
 
                 <div class="panel-body">
